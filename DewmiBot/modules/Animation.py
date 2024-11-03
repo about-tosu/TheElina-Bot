@@ -161,7 +161,7 @@ __help__ = """
  ❍ /hack
  ❍ /love
  
-  ©️@TheElinaBot🇱🇰
+  @Elina_Roxbot©️
 """
 __mod_name__ = "ANIMATIONS🚦"
 
