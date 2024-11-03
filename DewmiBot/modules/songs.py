@@ -82,7 +82,7 @@ __help__ = """
  ❍ /video <songname artist(optional)>*:* uploads the video song in it's best quality available
  ❍ /lyrics <song>*:* returns the lyrics of that song.
  
-   ©️@TheElinaBot🇱🇰
+   @Elina_Roxbot
 """
 
-__mod_name__ = "SONG🎸"
+__mod_name__ = "SONG"
