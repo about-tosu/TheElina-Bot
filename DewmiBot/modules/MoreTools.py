@@ -31,4 +31,4 @@ __help__ = """
  
   @Elina_RoxBot
 """
-__mod_name__ = "ELINA SPECIAL "
+__mod_name__ = "ELINA SPECIAL"
