@@ -279,7 +279,7 @@ __help__ = """
  • `/tts <text> `*:* text to voice
  • `/8ball`*:* predicts using 8ball method
  
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
 
 SANITIZE_HANDLER = DisableAbleCommandHandler("sanitize", sanitize)
@@ -310,7 +310,7 @@ dispatcher.add_handler(DECIDE_HANDLER)
 dispatcher.add_handler(TABLE_HANDLER)
 dispatcher.add_handler(WEEBIFY_HANDLER)
 
-__mod_name__ = "FUN🤹‍♂️"
+__mod_name__ = "FUN"
 __command_list__ = [
     "runs", "slap", "roll", "toss", "shrug", "bluetext", "rlg", "decide",
     "table", "pat", "sanitize", "weebify",
