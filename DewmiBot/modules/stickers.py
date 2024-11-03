@@ -458,10 +458,10 @@ __help__ = """
 ❍ `/kang`*:* reply to a sticker to add it to your pack.
 ❍ `/stickers`*:* Find stickers for given term on combot sticker catalogue
 
-  ©️@TheElinaBot🇱🇰
+  @Elina_Roxbot
 """
 
-__mod_name__ = "STICKERS🥏"
+__mod_name__ = "STICKERS"
 STICKERID_HANDLER = DisableAbleCommandHandler("stickerid", stickerid)
 GETSTICKER_HANDLER = DisableAbleCommandHandler("getsticker", getsticker)
 KANG_HANDLER = DisableAbleCommandHandler("kang", kang, admin_ok=True)
