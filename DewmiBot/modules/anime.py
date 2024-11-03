@@ -583,7 +583,7 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  ❍ `/kayo <anime>`*:* search an anime on animekayo.com
  ❍ `/airing <anime>`*:* returns anime airing info.
  
- ©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 
  """
 
@@ -629,4 +629,4 @@ __handlers__ = [
     BUTTON_HANDLER,
     AIRING_HANDLER,
 ]
-__mod_name__ = "ANIME🦸‍♀️"
+__mod_name__ = "ANIME"
