@@ -241,7 +241,7 @@ __help__ = """
  ❍ /gignoreblue <word>*:* globally ignores bluetext cleaning of saved word across Suzuya.
  ❍ /ungignoreblue <word>*:* remove said command from global cleaning list
  
- ©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 """
 
 SET_CLEAN_BLUE_TEXT_HANDLER = CommandHandler("cleanblue", set_blue_text_must_click)
@@ -266,7 +266,7 @@ dispatcher.add_handler(REMOVE_CLEAN_BLUE_TEXT_GLOBAL_HANDLER)
 dispatcher.add_handler(LIST_CLEAN_BLUE_TEXT_HANDLER)
 dispatcher.add_handler(CLEAN_BLUE_TEXT_HANDLER, BLUE_TEXT_CLEAN_GROUP)
 
-__mod_name__ = "CLEAN🧹"
+__mod_name__ = "CLEAN"
 __handlers__ = [
     SET_CLEAN_BLUE_TEXT_HANDLER,
     ADD_CLEAN_BLUE_TEXT_HANDLER,
