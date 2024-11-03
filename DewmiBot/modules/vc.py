@@ -9,9 +9,8 @@ _help_ = """
  
 *🔔 For Channel Music Play 🔔*
 
-1️⃣ Make @TheElinaBot  admin of your channel 
-2️⃣ Send /userbotjoinchannel in linked group
-3️⃣ Now send commands in linked group 
+1️⃣ Make @Elina_Roxbot  admin of your channel 
+2️⃣ Now send commands in linked group 
 
 *👥Groups Music Play👥*
 
@@ -44,14 +43,13 @@ Player cmd and all other cmds except /play, /current  and /playlist  are only fo
 ❍ /cresume - resume song play
 ❍ /cskip - play next song
 ❍ /cend - stop music play
-❍ /userbotjoinchannel - invite assistant to your chat
 channel is also can be used instead of c ( /cplay = /channelplay )
   
 *  If you donlt like to play in linked group  *
 1) Get your channel ID.
 2) Create a group with tittle: Channel Music: your_channel_id
 3) Add bot as Channel admin with full perms
-4) Add @TheElinaBot to the channel as an admin.
+4) Add @Elina_Roxbot to the channel as an admin.
 5) Simply send commands in your group.
  
 *⚫️More tools⚫️*
@@ -59,10 +57,10 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 • /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 • /userbotjoin: Invite @vcpalyassistant Userbot to your chat 
  
-*Assistent* >> @vcpalyassistant
-*🤖Bot🤖* >> @TheElinaBot
+*Assistent* >> @elina_roxbot_assistant
+*🤖Bot🤖* >> @Elina_Roxbot
 
 
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
-__mod_name__ = "VC Player🎙"
+__mod_name__ = "MUSIC SYSTEM"
