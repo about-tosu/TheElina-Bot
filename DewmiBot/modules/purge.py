@@ -102,7 +102,7 @@ __help__ = """
  ❍ /purge*:* deletes all messages between this and the replied to message.
  ❍ /purge <integer X>*:* deletes the replied message, and X messages following it if replied to a message.
 
-  ©️@TheElinaBot🇱🇰
+  @Elina_Roxbot
 """
 
-__mod_name__ = "PURGE✡️ "
+__mod_name__ = "PURGE"
