@@ -232,6 +232,6 @@ __help__ = """
  ❍ /carbon  text :  Create your logo with your name
  ❍ /pandalogo :  Create your logo with your name
  
-  ©️@TheElinaBot🇱🇰
+  @Elina_Roxbot
  """
-__mod_name__ = "LOGO🎭"
+__mod_name__ = "LOGO"
