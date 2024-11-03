@@ -514,10 +514,10 @@ Blacklist sticker is used to stop certain stickers. Whenever a sticker is sent, 
 Note:
  ❍ `<sticker link>` can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
  
- ©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 """
 
-__mod_name__ = "B-STICKER🖤 "
+__mod_name__ = "B-STICKER"
 
 BLACKLIST_STICKER_HANDLER = DisableAbleCommandHandler(
     "blsticker", blackliststicker, admin_ok=True
