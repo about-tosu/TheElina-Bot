@@ -45,6 +45,6 @@ __help__ = """
 ** Cricket Info **
 ❍ /cs: Get latest cricket matches live scores from cricinfo.
 
-©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 """
-__mod_name__ = "CRICKET🏏 "
+__mod_name__ = "CRICKET"
