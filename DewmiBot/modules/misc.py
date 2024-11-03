@@ -8,7 +8,6 @@ from typing import Optional
 
 import requests
 import requests as r
-import wikipedia
 from bs4 import BeautifulSoup
 from requests import get, post
 from telegram import (
