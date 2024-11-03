@@ -654,10 +654,10 @@ __help__ = """
   
 \
 
-  ©️@TheElinaBot🇱🇰
+  @Elina_Roxbot
 """
 
-__mod_name__ = "MISC🕎"
+__mod_name__ = "MISC"
 
 APP_HANDLER = DisableAbleCommandHandler("app", app)
 LYRICS_HANDLER = DisableAbleCommandHandler("lyrics", lyrics, pass_args=True)
