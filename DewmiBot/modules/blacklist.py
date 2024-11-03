@@ -449,7 +449,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "BLACKLIST🏴"
+__mod_name__ = "BLACKLIST"
 
 __help__ = """
 
@@ -462,7 +462,8 @@ Admin only:
  ❍ `/blacklistmode <off/del/warn/ban/kick/mute/tban/tmute>`*:* Action to perform when someone sends blacklisted words.
 
 
-©️@TheElinaBot🇱🇰
+@Elina_Roxbot
+
 """
 BLACKLIST_HANDLER = DisableAbleCommandHandler(
     "blacklist", blacklist, pass_args=True, admin_ok=True
