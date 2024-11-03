@@ -60,7 +60,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There! [👋](https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg), My Name Is  *Ξ L I N Λ 👸*. 
+Hay There! [👋](https://telegra.ph/file/8538d6790c194e6066d49-98546f355407c7c78b.jpg), My Name Is  *Ξ L I N Λ 👸*. 
 
 I can help to manage your groups with useful features, feel free to add me to your groups! 
 Promote me as *ADMIN* to let me get in action!
@@ -69,7 +69,7 @@ Promote me as *ADMIN* to let me get in action!
 Hit  /help to see *all the commands* and how they work!
 """
 
-PM_IMG = "https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg"
+PM_IMG = "https://envs.sh/jQH.jpg"
 
 
 HELP_STRINGS = f"""
@@ -94,22 +94,22 @@ Support them [Tosu](http://t.me/about_tosuu)
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="🔱 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 🔱", url="http://t.me/TheElinaBot?startgroup=true"),
+            text="𝘼𝙣𝙞𝙢𝙚 𝙂𝙧𝙤𝙪𝙥", url="http://t.me/Elina_Roxbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/ElinaNews"),
+        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/Elina_Roxbot_News"),
         InlineKeyboardButton(
-            text="👥 ʙᴏᴛ sᴜᴘᴘᴏʀᴛ 👥", url=f"https://t.me/ElinaSupport"
+            text="ʙᴏᴛ 𝙨ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Elina_Roxbot_Support"
         ),
     ],
     [
-        InlineKeyboardButton(text="★ ʀᴇᴠɪᴇᴡ ᴜs ★", url=f"https://t.me/tlgrmcbot?start=theelinabot"),
+        InlineKeyboardButton(text="𝘼𝙣𝙞𝙢𝙚 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/anime_x_group"),
         InlineKeyboardButton(
-            text="ℹ️ ᴀʙᴏᴜᴛ ℹ️", callback_data="aboutmanu_"
+            text="ᴀʙᴏᴜᴛ", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text="🎛 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🎛", url=f"http://t.me/TheElinaBot?start=help"),
+        InlineKeyboardButton(text="🎛 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🎛", url=f"http://t.me/Elina_Roxbot?start=help"),
     ],
 ]
 IMPORTED = {}
@@ -391,7 +391,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*Let's make your group bot effective now*"
-            f"\nCongragulations, @Elina_Roxbot🇱🇰 now ready to manage your group."
+            f"\nCongragulations, @Elina_Roxbot now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -441,8 +441,8 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
-            text=f"* CREDITS  FOR @Elina_Roxbot🇱🇰  DEV *\n"
-            f"\n Here you can find information about the bots I coded and the people who helped me create ELINA"
+            text=f"* CREDITS  FOR @Elina_Roxbot  DEV *\n"
+            f"\n Here you can find information about the bots I coded and create ELINA"
             f"\n Special credits [𝙏𝙤𝙨𝙪❤‍🩹](https://github.com/about-tosuu)"
             f"\n Finally my special thanks to you for using this bot",
             parse_mode=ParseMode.MARKDOWN,
@@ -450,25 +450,9 @@ def DewmiBot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/nothing_bots_updates"),
+                    InlineKeyboardButton(text="𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹", url="https://t.me/its_damiann"),
+                    InlineKeyboardButton(text="𝘼𝙗𝙤𝙪𝙩 𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/about_tosuu"),
                  ],   
-                 [
-                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
-                    InlineKeyboardButton(text="updates", url="https://t.me/nothing_bots_updates"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
-                    InlineKeyboardButton(text="𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="https://t.me/nothing_bots_updates"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
-                    InlineKeyboardButton(text="𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="https://t.me/nothing_bots_updates"),
-                 ],   
-                 [
-                    InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_"),
-                 
-                 ],
                 ]
             ),
         )
@@ -513,7 +497,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            url="https://t.me/Elina_Roxbot_support",
                         )
                     ],
                 ]
