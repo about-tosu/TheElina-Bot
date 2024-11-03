@@ -529,11 +529,11 @@ Some other regex filters are:
 Suzuya will reply random strings accordingly when these words are used!
 All regex filters can be disabled incase u don't want... like: `/disable goodnight`.
 
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 
 """
 
-__mod_name__ = "MEMES👼"
+__mod_name__ = "MEMES"
 
 
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
