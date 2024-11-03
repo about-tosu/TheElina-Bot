@@ -1,4 +1,4 @@
-from emoji import UNICODE_EMOJI
+import emoji
 from googletrans import LANGUAGES, Translator
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
@@ -52,7 +52,7 @@ def totranslate(update: Update, context: CallbackContext):
                 dest_lang = source_lang
                 source_lang = None
 
-            exclude_list = UNICODE_EMOJI.keys()
+            exclude_list = emoji.keys()
             for emoji in exclude_list:
                 if emoji in text:
                     text = text.replace(emoji, "")
