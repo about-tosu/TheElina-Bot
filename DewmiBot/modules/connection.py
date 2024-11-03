@@ -387,7 +387,7 @@ def connect_button(update, context):
         connect_chat(update, context)
 
 
-__mod_name__ = "CONNECT🏮"
+__mod_name__ = "CONNECT"
 
 __help__ = """
 
@@ -403,7 +403,7 @@ __help__ = """
 *ADMIN ONLY:*
  ❍ /allowconnect <yes/no>*:* allow a user to connect to a chat
  
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 
 """
 
