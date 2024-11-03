@@ -60,7 +60,7 @@ __help__ = """
 
  ❍ /json*:* Get Detailed info about any message
  
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
 
-__mod_name__ = "JSON🤠"
+__mod_name__ = "JSON"
