@@ -33,7 +33,7 @@ async def give_sysinfo(event):
     du = psutil.disk_usage(client.workdir)
     psutil.disk_io_counters()
     cpu_len = len(psutil.Process().cpu_affinity())
-    somsg = f"""**System Info of rose video player**
+    somsg = f"""**System Info**
     
 **📲PlatForm :** `{splatform}`
 **💡PlatForm - Release :** `{platform_release}`
