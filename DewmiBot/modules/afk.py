@@ -153,7 +153,7 @@ __help__ = """
  
  When marked as AFK, any mentions will be replied to with a message to say you're not available!
  
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
  
 """
 
