@@ -46,7 +46,6 @@ from DewmiBot import (
     TOKEN,
     URL,
     WEBHOOK,
-    WHITELIST_CHATS,
     StartTime,
     dispatcher,
     pbot,
@@ -89,7 +88,7 @@ The following funtions will helpful to you to manage your group. 😇
 DONATE_STRING = """
 Hay, glad to here you want to donate! 
 You can donate to the ogiginal writer's of the Base Code,
-Support them [Youtube](https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA)
+Support them [Tosu](http://t.me/about_tosuu)
 """
 
 BUTTONS = [
@@ -362,7 +361,7 @@ def DewmiBot_about_callback(update, context):
             text=f"** Here's basic Help regarding* *How to use Me? **"
             f"\n\n Firstly Add  *{dispatcher.bot.first_name}*  to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n\n After adding promote me manually with full rights for faster experience.\n"
-            f"\n\n Than send `/admincache@TheElinaBot` in that chat to refresh admin list in My database.\n"
+            f"\n\n Than send `/admincache@Elina_Roxbot` in that chat to refresh admin list in My database.\n"
             f"\n\n *All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -392,7 +391,7 @@ def DewmiBot_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*Let's make your group bot effective now*"
-            f"\nCongragulations, @TheElinaBot🇱🇰 now ready to manage your group."
+            f"\nCongragulations, @Elina_Roxbot🇱🇰 now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -426,12 +425,12 @@ def DewmiBot_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="👥ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/epusthakalayabotsupport"),
-                    InlineKeyboardButton(text="📣ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/epusthakalaya_bots"),
+                    InlineKeyboardButton(text="👥ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/nothing_bots_support"),
+                    InlineKeyboardButton(text="📣ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/nothing_bots_updates"),
                  ],
                  [
-                    InlineKeyboardButton(text="🖲ᴇʟɪɴᴀ sᴜᴘᴘᴏʀᴛ🖲", url="https://t.me/ElinaSupport"),
-                    InlineKeyboardButton(text="📰ᴇʟɪɴᴀ Uᴘᴅᴀᴛᴇs📰", url="https://t.me/ElinaNews"),
+                    InlineKeyboardButton(text="🖲ᴇʟɪɴᴀ sᴜᴘᴘᴏʀᴛ🖲", url="https://t.me/Elina_Roxbot_support"),
+                    InlineKeyboardButton(text="📰ᴇʟɪɴᴀ Uᴘᴅᴀᴛᴇs📰", url="https://t.me/Elina_Roxbot_News"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_"),
@@ -442,29 +441,29 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
-            text=f"* CREDITS  FOR @TheElinaBot🇱🇰  DEV *\n"
+            text=f"* CREDITS  FOR @Elina_Roxbot🇱🇰  DEV *\n"
             f"\n Here you can find information about the bots I coded and the people who helped me create ELINA"
-            f"\n Special credits [hirunaofficial](https://github.com/hirunaofficial/Telegram-Group-Management-Bot-DewmiBot)  & [Anikivictor](https://github.com/Damantha126/The-Anki-Vector)"
+            f"\n Special credits [𝙏𝙤𝙨𝙪❤‍🩹](https://github.com/about-tosuu)"
             f"\n Finally my special thanks to you for using this bot",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Pɧơɛnıх bot", url="https://t.me/PhoenixSupport"),
-                    InlineKeyboardButton(text="Amelia bot", url="https://t.me/warbotzsupport"),
+                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/nothing_bots_updates"),
                  ],   
                  [
-                    InlineKeyboardButton(text="Dewmibot", url="https://t.me/sltechzoneofficial"),
-                    InlineKeyboardButton(text="Aniki victor bot", url="https://t.me/ankivectorUpdates"),
+                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
+                    InlineKeyboardButton(text="updates", url="https://t.me/nothing_bots_updates"),
                  ],
                  [
-                    InlineKeyboardButton(text="Uvindu bro", url="https://t.me/UvinduBro"),
-                    InlineKeyboardButton(text="Rose bot", url="https://t.me/szroseupdates"),
+                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
+                    InlineKeyboardButton(text="𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="https://t.me/nothing_bots_updates"),
                  ],
                  [
-                    InlineKeyboardButton(text="Daisyx bot", url="https://github.com/TeamDaisyX/Daisy-OLD"),
-                    InlineKeyboardButton(text="innexia bot", url="https://github.com/DarkCybers/innexia/blob/Sammy/innexiaBot"),
+                    InlineKeyboardButton(text="𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/nothing_bots_support"),
+                    InlineKeyboardButton(text="𝙐𝙥𝙙𝙖𝙩𝙚𝙨", url="https://t.me/nothing_bots_updates"),
                  ],   
                  [
                     InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_"),
