@@ -29,6 +29,6 @@ __help__ = """
  *Time*
  ❍ /time <country> : Provide a country name/abbreviation/timezone to find.
  
-  ©️@TheElinaBot🇱🇰
+  ©️@Elina_RoxBot
 """
 __mod_name__ = "ELINA SPECIAL🎉"
