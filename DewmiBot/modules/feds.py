@@ -2352,7 +2352,7 @@ def fed_owner_help(update: Update, context: CallbackContext):
 ❍  /fbroadcast <message>*:* Broadcasts a messages to all groups that have joined your fed
 ❍  /fedsubs*:* Shows the feds your group is subscribed to `(broken rn)`
 
-©️@TheElinaBot🇱🇰""",
+@Elina_Roxbot""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2372,7 +2372,7 @@ def fed_admin_help(update: Update, context: CallbackContext):
 ❍  /fedchats*:* Get all the chats that are connected in the Federation
 ❍  /chatfed *:* See the Federation in the current chat
 
-©️@TheElinaBot🇱🇰\n""",
+@Elina_Roxbot\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
@@ -2385,12 +2385,12 @@ def fed_user_help(update: Update, context: CallbackContext):
 ❍  /fednotif <on/off>*:* Federation settings not in PM when there are users who are fbaned/unfbanned
 ❍  /frules*:* See Federation regulations
 
-©️@TheElinaBot🇱🇰\n""",
+@Elina_Roxbot\n""",
         parse_mode=ParseMode.MARKDOWN,
     )
 
 
-__mod_name__ = "FEDERATIONS🎖"
+__mod_name__ = "FEDERATIONS"
 
 __help__ = """
 
