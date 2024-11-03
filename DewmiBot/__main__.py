@@ -75,7 +75,7 @@ PM_IMG = "https://envs.sh/jQH.jpg"
 HELP_STRINGS = f"""
 *⚊❮❮❮『 Ξ L I N Λ  HΞLP MΞИU 』❯❯❯⚊*
 
-Hay !👋 I'm  Ξ L I N Λ [👸](https://telegra.ph/file/c0afb228c4b1fcefac3bb.jpg)
+Hay !👋 I'm  Ξ L I N Λ [👸](https://telegra.ph/file/8538d6790c194e6066d49-98546f355407c7c78b.jpg)
 
 The following funtions will helpful to you to manage your group. 😇
 
