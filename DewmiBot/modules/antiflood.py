@@ -411,12 +411,12 @@ __help__ = """
  3d = 3 days
  1w = 1 week
  
- ©️@TheElinaBot🇱🇰
+@Elina_Roxbot
  
  
  """
 
-__mod_name__ = "ANTI-FLOOD🚫"
+__mod_name__ = "ANTI-FLOOD"
 
 FLOOD_BAN_HANDLER = MessageHandler(
     Filters.all & ~Filters.status_update & Filters.group, check_flood
