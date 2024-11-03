@@ -7,12 +7,12 @@ __help__ = """
 ✮───────────────✮
 • File To Link and URL Upload 📂
 • Youtube Downloader 🎵
+• Voice Music player 🎵
 • Serach Books 📚
-• Search Exam Results 🏆
 
-♟ Developed by :- [TEAM ELINA](https://t.me/ElinaNews)
-♟ Source Code :-[Click Here](https://github.com/youtubeslgeekshow/sz-rose-bot)
+♟ Developed by :- [𝙏𝙊𝙎𝙐❤‍🩹](https://t.me/about_tosu)
+♟ News Channel :-[ELINA ROXBOT NEWS](https://t.me/elina_roxbot_News)
 
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
-__mod_name__ = "ABOUT🔆"
+__mod_name__ = "ABOUT"
