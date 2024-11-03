@@ -204,10 +204,10 @@ if is_module_loaded(FILENAME):
  *2.* sending `/setlog` in the channel
  *3.* forwarding the `/setlog` to the group
  
- ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
 
-    __mod_name__ = "LOGGER🗞 "
+    __mod_name__ = "LOGGER"
 
     LOG_HANDLER = CommandHandler("logchannel", logging)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog)
