@@ -256,7 +256,7 @@ def untagall(update, context):
     )
 
 
-__mod_name__ = "TAG ALL🛎"
+__mod_name__ = "TAGALL"
 
 __help__ = """ 
 
@@ -271,7 +271,7 @@ Tagall is an essential feature to mention all subscribed members in the group. A
 ❍ /addtag <userhandle>: add a user to chat tag list. (via handle, or reply)
 ❍ /removetag <userhandle>: remove a user to chat tag list. (via handle, or reply)
 
-  ©️@TheElinaBot🇱🇰
+  @Elina_Roxbot
 """
 
 TAG_ALL_HANDLER = DisableAbleCommandHandler("tagall", tagall, filters=Filters.group)
