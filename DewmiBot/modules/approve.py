@@ -211,7 +211,7 @@ That's what approvals are for - approve of trustworthy users to allow them to se
 ❍ `/approved`*:* List all approved users.
 ❍ `/unapproveall`*:* Unapprove *ALL* users in a chat. This cannot be undone.
 
-©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 
 """
 
@@ -229,6 +229,6 @@ dispatcher.add_handler(APPROVAL)
 dispatcher.add_handler(UNAPPROVEALL)
 dispatcher.add_handler(UNAPPROVEALL_BTN)
 
-__mod_name__ = "APPROVE✅"
+__mod_name__ = "APPROVE"
 __command_list__ = ["approve", "unapprove", "approved", "approval"]
 __handlers__ = [APPROVE, DISAPPROVE, APPROVED, APPROVAL]
