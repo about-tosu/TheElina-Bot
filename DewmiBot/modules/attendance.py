@@ -131,7 +131,7 @@ __help__ = """
  
  'This command only works in groups.'
  
-  ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
 
 START_ATTENDANCE = DisableAbleCommandHandler("attendance", start_attendance)
@@ -144,6 +144,6 @@ dispatcher.add_handler(MARK_ATTENDANCE)
 dispatcher.add_handler(END_ATTENDANCE)
 dispatcher.add_handler(END_ATTENDANCE_CMD)
 
-__mod_name__ = "ATTENDANCE🙋"
+__mod_name__ = "ATTENDANCE"
 __command_list__ = ["attendance", "end_attendance"]
 __handlers__ = [START_ATTENDANCE, END_ATTENDANCE, END_ATTENDANCE_CMD]
