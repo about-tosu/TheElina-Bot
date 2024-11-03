@@ -18,8 +18,8 @@ __help__ = """
  ❍ /g5- (G5) SCHOLARSHIP Results 
 `Index No`
  
-'Donents.lk Bot' © @uvindbro
+'Donents.lk Bot' 
 
-©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 """
-__mod_name__ = "RESULTS🏆"
+__mod_name__ = "RESULTS"
