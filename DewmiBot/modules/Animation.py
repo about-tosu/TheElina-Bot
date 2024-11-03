@@ -161,9 +161,9 @@ __help__ = """
  ❍ /hack
  ❍ /love
  
-  @Elina_Roxbot©️
+  @Elina_Roxbot ©️
 """
-__mod_name__ = "ANIMATIONS🚦"
+__mod_name__ = "ANIMATIONS"
 
 KILL_HANDLER = DisableAbleCommandHandler("kill",kill)
 LOVE_HANDLER = DisableAbleCommandHandler("love", love)
