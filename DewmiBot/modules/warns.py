@@ -511,10 +511,10 @@ be a sentence, encompass it with quotes, as such: `/addwarn "very angry" This is
  ❍ /warnlimit <num>*:* set the warning limit
  ❍ /strongwarn <on/yes/off/no>*:* If set to on, exceeding the warn limit will result in a ban. Else, will just punch.
  
-   ©️@TheElinaBot🇱🇰
+ @Elina_Roxbot
 """
 
-__mod_name__ = "WARN⚠️"
+__mod_name__ = "WARN"
 
 WARN_HANDLER = CommandHandler("warn", warn_user, filters=Filters.group)
 RESET_WARN_HANDLER = CommandHandler(
