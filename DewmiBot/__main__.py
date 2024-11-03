@@ -94,22 +94,22 @@ Support them [Tosu](http://t.me/about_tosuu)
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="𝘼𝙣𝙞𝙢𝙚 𝙂𝙧𝙤𝙪𝙥", url="http://t.me/Elina_Roxbot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ✚", url="http://t.me/Elina_Roxbot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📰 ʙᴏᴛ ɴᴇᴡs 📰", url=f"https://t.me/Elina_Roxbot_News"),
+        InlineKeyboardButton(text="ʙᴏᴛ ɴᴇᴡs➹", url=f"https://t.me/Elina_Roxbot_News"),
         InlineKeyboardButton(
             text="ʙᴏᴛ 𝙨ᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Elina_Roxbot_Support"
         ),
     ],
     [
-        InlineKeyboardButton(text="𝘼𝙣𝙞𝙢𝙚 𝙂𝙧𝙤𝙪𝙥", url=f"https://t.me/anime_x_group"),
+        InlineKeyboardButton(text="♡𝘼𝙣𝙞𝙢𝙚 𝙂𝙧𝙤𝙪𝙥♡", url=f"https://t.me/anime_x_group"),
         InlineKeyboardButton(
             text="ᴀʙᴏᴜᴛ", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text="🎛 ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs 🎛", url=f"http://t.me/Elina_Roxbot?start=help"),
+        InlineKeyboardButton(text="♣︎ʜᴇʟᴘ♣︎", url=f"http://t.me/Elina_Roxbot?start=help"),
     ],
 ]
 IMPORTED = {}
