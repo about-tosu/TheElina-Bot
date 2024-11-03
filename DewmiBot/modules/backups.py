@@ -372,7 +372,7 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "BACKUP🗳"
+__mod_name__ = "BACKUP"
 
 __help__ = """
 
@@ -384,7 +384,7 @@ __help__ = """
  ❍ `/export`: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
  
  
-©@TheElinaBot🇱🇰
+@Elina_Roxbot
  
 """
 
