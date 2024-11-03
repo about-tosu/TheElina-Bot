@@ -18,6 +18,6 @@ _help_ = """
 ❍ /uptime - check bot uptime status
 ❍ /sysinfo - check bot system information
 
-Powerd by @TheElinaBot🇱🇰
+Powerd by @Elina_Roxbot
 """
 __mod_name__ = "video play "
