@@ -92,13 +92,13 @@ if ENV:
 
     try:
         WHITELIST_CHATS = set(
-            int(x) for x in os.environ.get("WHITELIST_CHATS", "").split()
+            int(x) for x in os.environ.get("WHITELIST_CHATS", "-1001968080213").split()
         )
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
     try:
-        BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "").split())
+        BL_CHATS = set(int(x) for x in os.environ.get("BL_CHATS", "-1001816477508").split())
     except ValueError:
         raise Exception("Your blacklisted chats list does not contain valid integers.")
 
