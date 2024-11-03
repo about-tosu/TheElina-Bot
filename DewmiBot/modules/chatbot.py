@@ -153,9 +153,9 @@ Chatbot utilizes the CoffeeHouse API and allows Senku to talk and provides a mor
  ❍ `/rmchat`*:* Disables Chatbot mode in the chat.
 
 Reports bugs at @{SUPPORT_CHAT}
-[Powered by CoffeeHouse](https://coffeehouse.intellivoid.net) from @Intellivoid
+[Powered by Elina News](https://t.me/elina_roxbot_news) from @Nothing_bots_updates
 
-©️@TheElinaBot🇱🇰
+@Elina_Roxbot
 
 """
 
