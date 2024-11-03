@@ -33,10 +33,10 @@ With this module, you can find the definitions of words without having to leave 
 *Available commands:*
  - /define <word>: returns the definition of the word.
 
- ©️@TheElinaBot🇱🇰
+@Elina_Roxbot
  """
  
-__mod_name__ = "DICTIONARY📓"
+__mod_name__ = "DICTIONARY"
         
         
 DEFINE_HANDLER = CommandHandler("define", define, pass_args=True)
