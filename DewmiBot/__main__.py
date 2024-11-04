@@ -60,13 +60,13 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hay There! [👋](https://telegra.ph/file/8538d6790c194e6066d49-98546f355407c7c78b.jpg), My Name Is  *Ξ L I N Λ 👸*. 
+ʜᴇʏ ᴛʜᴇʀᴇ! [👋](https://telegra.ph/file/8538d6790c194e6066d49-98546f355407c7c78b.jpg), My Name Is  *Ξ L I N Λ 👸*. 
 
-I can help to manage your groups with useful features, feel free to add me to your groups! 
-Promote me as *ADMIN* to let me get in action!
+ɪ ᴄᴀɴ ʜᴇʟᴘ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴡɪᴛʜ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs! 
+ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴀs *ᴀᴅᴍɪɴ* ᴛᴏ ʟᴇᴛ ᴍᴇ ɢᴇᴛ ɪɴ ᴀᴄᴛɪᴏɴ!
 
 ⁉️ 𝐖𝐇𝐀𝐓 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐂𝐎𝐌𝐌𝐀𝐍𝐃𝐒? ⁉️
-Hit  /help to see *all the commands* and how they work!
+ʜɪᴛ  /help ᴛᴏ sᴇᴇ *ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs* ᴀɴᴅ ʜᴏᴡ ᴛʜᴇʏ ᴡᴏʀᴋ!
 """
 
 PM_IMG = "https://envs.sh/jQH.jpg"
@@ -75,9 +75,9 @@ PM_IMG = "https://envs.sh/jQH.jpg"
 HELP_STRINGS = f"""
 *⚊❮❮❮『 Ξ L I N Λ  HΞLP MΞИU 』❯❯❯⚊*
 
-Hay !👋 I'm  Ξ L I N Λ [👸](https://telegra.ph/file/8538d6790c194e6066d49-98546f355407c7c78b.jpg)
+ʜᴇʏ !👋 ɪ'ᴍ  Ξ L I N Λ [👸](https://telegra.ph/file/8538d6790c194e6066d49-98546f355407c7c78b.jpg)
 
-The following funtions will helpful to you to manage your group. 😇
+ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ ғᴜɴᴛɪᴏɴs ᴡɪʟʟ ʜᴇʟᴘғᴜʟ ᴛᴏ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ. 😇
 
 """.format(
     dispatcher.bot.first_name,
@@ -86,9 +86,9 @@ The following funtions will helpful to you to manage your group. 😇
 
 
 DONATE_STRING = """
-Hay, glad to here you want to donate! 
-You can donate to the ogiginal writer's of the Base Code,
-Support them [Tosu](http://t.me/about_tosuu)
+ʜᴀʏ, ɢʟᴀᴅ ᴛᴏ ʜᴇʀᴇ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴅᴏɴᴀᴛᴇ! 
+ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴏɢɪɢɪɴᴀʟ ᴡʀɪᴛᴇʀ's ᴏғ ᴛʜᴇ ʙᴀsᴇ ᴄᴏᴅᴇ,
+sᴜᴘᴘᴏʀᴛ ᴛʜᴇᴍ [ᴛᴏsᴜ](http://t.me/about_tosuu)
 """
 
 BUTTONS = [
@@ -351,23 +351,23 @@ def DewmiBot_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"** Here's basic Help regarding* *How to use Me? **"
-            f"\n\n Firstly Add  *{dispatcher.bot.first_name}*  to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
-            f"\n\n After adding promote me manually with full rights for faster experience.\n"
-            f"\n\n Than send `/admincache@Elina_Roxbot` in that chat to refresh admin list in My database.\n"
-            f"\n\n *All done now use below given button's to know about use!*\n"
+            text=f"** ʜᴇʀᴇ's ʙᴀsɪᴄ ʜᴇʟᴘ ʀᴇɢᴀʀᴅɪɴɢ* *ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ? **"
+            f"\n\n ғɪʀsᴛʟʏ ᴀᴅᴅ  *{dispatcher.bot.first_name}*  ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ʙʏ ᴘʀᴇssɪɴɢ [here](http://t.me/Elina_Roxbot?startgroup=true)\n"
+            f"\n\n ᴀғᴛᴇʀ ᴀᴅᴅɪɴɢ ᴘʀᴏᴍᴏᴛᴇ ᴍᴇ ᴍᴀɴᴜᴀʟʟʏ ᴡɪᴛʜ ғᴜʟʟ ʀɪɢʜᴛs ғᴏʀ ғᴀsᴛᴇʀ ᴇxᴘᴇʀɪᴇɴᴄᴇ.\n"
+            f"\n\n ᴛʜᴀɴ sᴇɴᴅ `/admincache@Elina_Roxbot` ɪɴ ᴛʜᴀᴛ ᴄʜᴀᴛ ᴛᴏ ʀᴇғʀᴇsʜ ᴀᴅᴍɪɴ ʟɪsᴛ ɪɴ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ.\n"
+            f"\n\n *ᴀʟʟ ᴅᴏɴᴇ ɴᴏᴡ ᴜsᴇ ʙᴇʟᴏᴡ ɢɪᴠᴇɴ ʙᴜᴛᴛᴏɴ's ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴜsᴇ!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                    InlineKeyboardButton(text="👑 Aᴅᴍɪɴ 👑", callback_data="aboutmanu_credit"),
-                    InlineKeyboardButton(text="📝 Nᴏᴛᴇs 📝", callback_data="aboutmanu_permis"),
+                    InlineKeyboardButton(text="Aᴅᴍɪɴ", callback_data="aboutmanu_credit"),
+                    InlineKeyboardButton(text="Nᴏᴛᴇs", callback_data="aboutmanu_permis"),
                  ],
                  [
-                    InlineKeyboardButton(text="👥 sᴜᴘᴘᴏʀᴛ 👥", callback_data="aboutmanu_spamprot"),
-                    InlineKeyboardButton(text="💳 Cʀᴇᴅɪᴛ 💳", callback_data="aboutmanu_tac"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="aboutmanu_spamprot"),
+                    InlineKeyboardButton(text="Cʀᴇᴅɪᴛ", callback_data="aboutmanu_tac"),
                  ],
                     [InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
@@ -401,10 +401,10 @@ def DewmiBot_about_callback(update, context):
 
     elif query.data == "aboutmanu_permis":
         query.message.edit_text(
-            text=f"<b> Setting up notes</b>"
-            f"\nYou can save message/media/audio or anything as notes"
-            f"\nto get a note simply use # at the beginning of a word"
-            f"\n\nYou can also set buttons for notes and filters (refer help menu)",
+            text=f"<b> sᴇᴛᴛɪɴɢ ᴜᴘ ɴᴏᴛᴇs</b>"
+            f"\nʏᴏᴜ ᴄᴀɴ sᴀᴠᴇ ᴍᴇssᴀɢᴇ/ᴍᴇᴅɪᴀ/ᴀᴜᴅɪᴏ ᴏʀ ᴀɴʏᴛʜɪɴɢ ᴀs ɴᴏᴛᴇs"
+            f"\nᴛᴏ ɢᴇᴛ ᴀ ɴᴏᴛᴇ sɪᴍᴘʟʏ ᴜsᴇ # ᴀᴛ ᴛʜᴇ ʙᴇɢɪɴɴɪɴɢ ᴏғ ᴀ ᴡᴏʀᴅ"
+            f"\n\nʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ sᴇᴛ ʙᴜᴛᴛᴏɴs ғᴏʀ ɴᴏᴛᴇs ᴀɴᴅ ғɪʟᴛᴇʀs (ʀᴇғᴇʀ ʜᴇʟᴘ ᴍᴇɴᴜ)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_")]]
@@ -412,18 +412,18 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_spamprot":
         query.message.edit_text(
-            text="* @TheElinaBot🇱🇰 support chats*"
+            text="* @Elina_Roxbot support chats*"
             "\nJoin Support Group/Channel",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="👥ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ👥", url="https://t.me/nothing_bots_support"),
-                    InlineKeyboardButton(text="📣ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ📣", url="https://t.me/nothing_bots_updates"),
+                    InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/nothing_bots_support"),
+                    InlineKeyboardButton(text="ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url="https://t.me/nothing_bots_updates"),
                  ],
                  [
                     InlineKeyboardButton(text="🖲ᴇʟɪɴᴀ sᴜᴘᴘᴏʀᴛ🖲", url="https://t.me/Elina_Roxbot_support"),
-                    InlineKeyboardButton(text="📰ᴇʟɪɴᴀ Uᴘᴅᴀᴛᴇs📰", url="https://t.me/Elina_Roxbot_News"),
+                    InlineKeyboardButton(text="ᴇʟɪɴᴀ Uᴘᴅᴀᴛᴇs", url="https://t.me/Elina_Roxbot_News"),
                  ],
                  [
                     InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ", callback_data="aboutmanu_"),
@@ -434,17 +434,17 @@ def DewmiBot_about_callback(update, context):
         )
     elif query.data == "aboutmanu_tac":
         query.message.edit_text(
-            text=f"* CREDITS  FOR @Elina_Roxbot  DEV *\n"
-            f"\n Here you can find information about the bots I coded and create ELINA"
+            text=f"* ᴄʀᴇᴅɪᴛs  ғᴏʀ @Elina_Roxbot  ＤＥＶ *\n"
+            f"\n ᴅᴇᴠ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙᴏᴛs ɪ ᴄᴏᴅᴇᴅ ᴀɴᴅ ᴄʀᴇᴀᴛᴇ ＥＬＩＮＡ"
             f"\n Special credits [𝙏𝙤𝙨𝙪❤‍🩹](https://github.com/about-tosuu)"
-            f"\n Finally my special thanks to you for using this bot",
+            f"\n ғɪɴᴀʟʟʏ ᴍʏ sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ ʏᴏᴜ ғᴏʀ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝘿𝙖𝙢𝙞𝙖𝙣❤‍🩹", url="https://t.me/its_damiann"),
-                    InlineKeyboardButton(text="𝘼𝙗𝙤𝙪𝙩 𝙏𝙤𝙨𝙪❤‍🩹", url="https://t.me/about_tosuu"),
+                    InlineKeyboardButton(text="ᴅᴇᴠ", url="https://t.me/its_damiann"),
+                    InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴅᴇᴠ", url="https://t.me/about_tosuu"),
                  ],   
                 ]
             ),
