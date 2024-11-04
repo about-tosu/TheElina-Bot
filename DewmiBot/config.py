@@ -19,6 +19,7 @@ class Config(object):
     TOKEN = "7628114935:AAEdA7ZOfC353Oq8WrCIrJxf47MLRgVKGls"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 6848223695  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "its_damiann"
+    START_IMG = "https://telegra.ph/file/64c5b7990163324c33ec4-2d965458e22899ffa7.jpg"
     SUPPORT_CHAT = "Elina_Roxbot_support"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1002023182491
