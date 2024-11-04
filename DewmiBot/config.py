@@ -16,7 +16,7 @@ class Config(object):
 
     API_ID = 24620300  # integer value, dont use ""
     API_HASH = "9a098f01aa56c836f2e34aee4b7ef963"
-    TOKEN = "7628114935:AAEdA7ZOfC353Oq8WrCIrJxf47MLRgVKGls"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 6848223695  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "its_damiann"
     START_IMG = "https://telegra.ph/file/64c5b7990163324c33ec4-2d965458e22899ffa7.jpg"
@@ -29,8 +29,8 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "postgres://wsnioboi:Fkf1ef7qRJVP1CvP_gKYqhdxk6LXBbQE@balarama.db.elephantsql.com/wsnioboi"  # needed for any database modules
-    REDIS_URI = "redis-cli -u redis://default:uAoinUQfH83lGLZvXYk5nMGHGCQnZL2s@redis-12586.c74.us-east-1-4.ec2.redns.redis-cloud.com:12586"
+    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    REDIS_URI = ""
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
