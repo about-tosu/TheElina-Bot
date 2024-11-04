@@ -30,7 +30,6 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
-from DewmiBot import config.START_IMG
 
 from DewmiBot import pgram
 
@@ -51,7 +50,7 @@ ASAU = [
 @pgram.on_message(filters.command("alive"))
 async def awake(_, message: Message):
     await message.reply_photo(
-        random.choice(START_IMG),
+        random.choice("https://telegra.ph/file/64c5b7990163324c33ec4-2d965458e22899ffa7.jpg"),
         caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『 ＥＬＩＮＡ 』 **
      ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
 ♛ **ᴅᴇᴠᴏᴛᴇᴅ ᴛᴏ :** [𝘿𝙖𝙢𝙞𝙖𝙣](https://t.me/its_damiann)
