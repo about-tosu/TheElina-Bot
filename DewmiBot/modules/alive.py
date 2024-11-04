@@ -31,20 +31,17 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
 
-from Karma.helper import START_IMG
-from Miko import BOT_NAME
-from Miko import BOT_USERNAME as fuck
-from Miko import pgram
+from DewmiBot import pgram
 
 ASAU = [
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/hunter_Updates"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/hunterXsupport"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/Elina_Roxbot_News"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/Elina_Roxbot_support"),
     ],
     [
         InlineKeyboardButton(
             text="ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💫",
-            url=f"https://t.me/{fuck}?startgroup=true",
+            url=f"https://t.me/Elina_Roxbot?startgroup=true",
         ),
     ],
 ]
@@ -53,10 +50,10 @@ ASAU = [
 @pgram.on_message(filters.command("alive"))
 async def awake(_, message: Message):
     await message.reply_photo(
-        random.choice(START_IMG),
-        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ {BOT_NAME}**
+        random.choice(https://telegra.ph/file/64c5b7990163324c33ec4-2d965458e22899ffa7.jpg),
+        caption=f"""**ʜᴇʏ, ɪ ᴀᴍ 『 ＥＬＩＮＡ 』 **
      ━━━━━━━━ 🝮✿🝮 ━━━━━━━━
-♛ **ᴅᴇᴠᴏᴛᴇᴅ ᴛᴏ :** [𝑲𝒂𝒓𝒂𝒏](https://t.me/HUNTER_KARAN)
+♛ **ᴅᴇᴠᴏᴛᴇᴅ ᴛᴏ :** [𝘿𝙖𝙢𝙞𝙖𝙣](https://t.me/its_damiann)
 » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
 » **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tver}`
 » **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pver}`
