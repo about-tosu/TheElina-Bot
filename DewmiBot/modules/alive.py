@@ -30,7 +30,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from telegram import __version__ as lver
 from telethon import __version__ as tver
-from DewmiBot import START_IMG
+from DewmiBot import config.START_IMG
 
 from DewmiBot import pgram
 
